@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="../footer.css">
   <!--------------------------------------TAILSWIND SCRIPT------------------------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script>
     tailwind.config = {
       theme: {
@@ -128,461 +130,445 @@
     </script>
   </nav>
 
-
-  <div class="bg-cover bg-no-repeat bg-homepageimg bg-[#A6E8F7] grid grid-cols-1 gap-y-12">
-    <!--PROVIDES VERTICAL SPACING TO ALL SECTIONS-->
-
-
-    <!-- TITLE -->
-    <div class="grid grid-cols-1 place-items-center h-28">
-      <span class="font-[400] text-6xl">Gallery</span>
+  <div class="flex flex-col items-center bg-cover bg-no-repeat bg-homepageimg bg-[#A6E8F7]">
+    
+    <div class="flex flex-col items-center">
+      <div class="mt-5 text-[1.5rem] md:text-[2.2rem]">
+        <h1 class="font-bold">Vibrance Expo 2023</h1>
+      </div>
+      <div class="w-70 md:w-[90vh] m-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/Expo/_DSC0014.JPG" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0187.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0198.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0212.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0415.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0426.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0428.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0438.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0439.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0440.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0441.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0445.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Expo/_DSC0460.JPG" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
     </div>
 
-    <!-------------------------------------------------------------------------------------------------------------------------------->
-
-    <!-- MAIN CONTENT -->
-    <div id="product-container"
-      class="grid grid-cols-1 w-screen pb-14 place-items-center gap-3 lg:bg-no-repeat md:bg-no-repeat sm:bg-repeat-y lg:bg-cover md:bg-contain sm:bg-contain">
-            <!--Carousel 2 starts ==========================================SECTION==========================================================-->
-            <div class="lg:h-80 w-5/6 w-full rounded-3xl grid grid-cols-1">
-              <div class="text-4xl flex justify-center pt-3 m-0">Wildlife Frames</div>
-              <div class=" grid grid-rows-1 grid-flow-col place-items-center">
-                <!--------------------------------SLIDE SHOW----------------------------------------->
-                <div class="container flex items-center">
-      
-      
-                  <!----SLIDER---->
-                  <div class="slider">
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full" id="#slide">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/_DSC0079.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/_DSC0084.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/_DSC0085.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/_DSC0090.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/IMG_9023.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/IMG_9026.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/IMG_9109.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/IMG_9228.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Wildlife Frames/IMG_9337.JPG" alt="">
-                      </div>
-                    </div>
-                  </div>
-      
-                </div>
-                <!------------------------------------------------------------------------------------------------>
-              </div>
+    <div class="flex flex-col items-center">
+      <div class="mt-5 text-[1.5rem] md:text-[2.2rem]">
+        <h1 class="font-bold">Saga of Indian Culture</h1>
+      </div>
+      <div class="w-70 md:w-[90vh] m-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/Quiz Winners.jpeg" alt="First slide">
             </div>
-            <!--  Carousel end -->
-
-            <!--Carousel 2 starts ==========================================SECTION==========================================================-->
-            <div class="lg:h-80 w-5/6 w-full rounded-3xl grid grid-cols-1">
-              <div class="text-4xl flex justify-center pt-3 m-0">Open Mic</div>
-              <div class=" grid grid-rows-1 grid-flow-col place-items-center">
-                <!--------------------------------SLIDE SHOW----------------------------------------->
-                <div class="container flex items-center">
-      
-      
-                  <!----SLIDER---->
-                  <div class="slider">
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full" id="#slide">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/A5704D67-0BF5-43FF-87C7-58884F7434A5.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/DSC_0111.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/DSC_0234.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/IMG_0152.JPG" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/IMG_0649.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/IMG_0651.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/IMG_0653.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/IMG_0655.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Open Mic/IMG_9829.JPG" alt="">
-                      </div>
-                    </div>
-                  </div>
-      
-                </div>
-                <!------------------------------------------------------------------------------------------------>
-              </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/Screenshot (162).png" alt="Third slide">
             </div>
-            <!--  Carousel end -->
-
-            <!--Carousel 2 starts ==========================================SECTION==========================================================-->
-            <div class="lg:h-80 w-5/6 w-full rounded-3xl grid grid-cols-1">
-              <div class="text-4xl flex justify-center pt-3 m-0">Green Hands</div>
-              <div class=" grid grid-rows-1 grid-flow-col place-items-center">
-                <!--------------------------------SLIDE SHOW---------------------------------------->
-                <div class="container flex items-center">
-      
-      
-                  <!----SLIDER---->
-                  <div class="slider">
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full" id="#slide">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0514.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0521.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0525.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0542.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0542.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0548.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0553.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0553.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0564.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0572.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0575.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0577.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0578.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Green Hands/IMG_0593.jpg" alt="">
-                      </div>
-                    </div>
-                  </div>
-      
-                </div>
-                <!------------------------------------------------------------------------------------------------>
-              </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/Screenshot (163).png" alt="Third slide">
             </div>
-            <!--  Carousel end -->
-
-            <!--Carousel 2 starts ==========================================SECTION==========================================================-->
-            <div class="lg:h-80 w-5/6 w-full rounded-3xl grid grid-cols-1">
-              <div class="text-4xl flex justify-center pt-3 m-0">Saga of Indian Agriculture</div>
-              <div class=" grid grid-rows-1 grid-flow-col place-items-center">
-                <!--------------------------------SLIDE SHOW----------------------------------------->
-                <div class="container flex items-center">
-      
-      
-                  <!----SLIDER---->
-                  <div class="slider">
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full" id="#slide">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/Quiz Winners.jpeg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/Screenshot (162).png" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/Screenshot (163).png" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/Screenshot (164).png" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/Screenshot (165).png" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/Screenshot (166).png" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/Screenshot (167).png" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-14 at 7.15.12 PM.jpeg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-14 at 7.15.16 PM.jpeg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-14 at 7.17.26 PM.jpeg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-14 at 7.23.26 PM.jpeg" alt="">
-                      </div>
-                    </div>
-                    <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                      <div class="slide-content">
-                        <img src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-15 at 4.00.27 PM.jpeg" alt="">
-                      </div>
-                    </div>
-                  </div>
-      
-                </div>
-                <!------------------------------------------------------------------------------------------------>
-              </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/Screenshot (164).png" alt="Third slide">
             </div>
-            <!--  Carousel end -->
-
-      <!--Carousel 1 ==========================================SECTION==========================================================-->
-      <div class="lg:h-80 w-5/6 w-full rounded-3xl grid grid-cols-1">
-        <div class="text-4xl flex justify-center pt-3 m-0 text-center">Questionnaire Session with Vejayanatham Sir</div>
-        <div class=" grid grid-rows-1 grid-flow-col place-items-center">
-          <!--------------------------------SLIDE SHOW----------------------------------------->
-          <div class="container flex items-center">
-
-
-            <!----SLIDER---->
-            <div class="slider md:overflow-hidden">
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full" id="#slide">
-                <div class="slide-content">
-                  <img class="w-[400px]" src="./img/question with vejayanatham sir/20210227_100612_1614527297955.png" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/question with vejayanatham sir/IMG-20210228-WA0049.jpg" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/question with vejayanatham sir/2.png" alt="">
-                </div>
-              </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/Screenshot (165).png" alt="Third slide">
             </div>
-
-
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/Screenshot (167).png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-14 at 7.15.12 PM.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-14 at 7.23.26 PM (1).jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-14 at 7.23.26 PM.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-15 at 4.00.27 PM (1).jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Saga of indian agriculture/WhatsApp Image 2022-07-15 at 4.00.27 PM.jpeg" alt="Third slide">
+            </div>
           </div>
-          <!------------------------------------------------------------------------------------------------>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
-      <br>
-      <!-- carousel ends=========================================================================================================-->
+    </div>
 
-      <!--Carousel 2 starts ==========================================SECTION==========================================================-->
-      <div class="lg:h-80 w-5/6 w-full rounded-3xl grid grid-cols-1">
-        <div class="text-4xl flex justify-center pt-3 m-0">Descaptatio Natura</div>
-        <div class=" grid grid-rows-1 grid-flow-col place-items-center">
-          <!--------------------------------SLIDE SHOW----------------------------------------->
-          <div class="container flex items-center">
-
-
-            <!----SLIDER---->
-            <div class="slider">
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full" id="#slide">
-                <div class="slide-content">
-                  <img src="./img/Descaptatio Natura/1.png" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/Descaptatio Natura/2.png" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/Descaptatio Natura/3.png" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/Descaptatio Natura/4.png" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/Descaptatio Natura/WhatsApp Image 2022-01-26 at 7.43.31 PM.jpeg" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/Descaptatio Natura/WhatsApp Image 2022-01-26 at 7.43.48 PM.jpeg" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/Descaptatio Natura/WhatsApp Image 2022-01-26 at 7.44.04 PM.jpeg" alt="">
-                </div>
-              </div>
-              <div class="slide lg:basis-1/4 md:basis-1/3 sm:basis-full">
-                <div class="slide-content">
-                  <img src="./img/Descaptatio Natura/WhatsApp Image 2022-01-26 at 7.48.33 PM.jpeg" alt="">
-                </div>
-              </div>
+    <div class="flex flex-col items-center">
+      <div class="mt-5 text-[1.5rem] md:text-[2.2rem]">
+        <h1 class="font-bold">Green Hands</h1>
+      </div>
+      <div class="w-70 md:w-[90vh] m-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0514.jpg" alt="First slide">
             </div>
-
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0521.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0525.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0542.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0548.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0553.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0564.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0572.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0575.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0577.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0578.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Green Hands/IMG_0593.jpg" alt="Third slide">
+            </div>
           </div>
-          <!------------------------------------------------------------------------------------------------>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
-      <!--  Carousel end -->
+    </div>
 
+    <div class="flex flex-col items-center">
+      <div class="mt-5 text-[1.5rem] md:text-[2.2rem]">
+        <h1 class="font-bold">Open Mic</h1>
+      </div>
+      <div class="w-70 md:w-[90vh] m-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/Open Mic/DSC_0111.JPG" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Open Mic/DSC_0234.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Open Mic/IMG_0152.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Open Mic/IMG_0649.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Open Mic/IMG_0655.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Open Mic/IMG_9829.JPG" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <div class="mt-5 text-[1.5rem] md:text-[2.2rem]">
+        <h1 class="font-bold">Wildlife Frames</h1>
+      </div>
+      <div class="w-70 md:w-[90vh] m-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/Wildlife Frames/_DSC0079.JPG" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Wildlife Frames/_DSC0084.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Wildlife Frames/_DSC0090.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Wildlife Frames/IMG_9023.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Wildlife Frames/IMG_9109.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Wildlife Frames/IMG_9218.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Wildlife Frames/IMG_9228.JPG" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <div class="mt-5 text-[1.5rem] md:text-[2.2rem]">
+        <h1 class="font-bold">Question with Vejayanatham Sir</h1>
+      </div>
+      <div class="w-70 md:w-[90vh] m-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/question with vejayanatham sir/2.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/question with vejayanatham sir/IMG-20210228-WA0049.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <div class="mt-5 text-[1.5rem] md:text-[2.2rem]">
+        <h1 class="font-bold">Descaptatio Natura</h1>
+      </div>
+      <div class="w-70 md:w-[90vh] m-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/Descaptatio Natura/1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Descaptatio Natura/2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Descaptatio Natura/3.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Descaptatio Natura/WhatsApp Image 2022-01-26 at 7.43.31 PM.jpeg"
+                alt="Second slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
   <!--Footer-->
-      <footer class="footer" id="gal">
-        <div class="footer-container">
-          <div class="footer-row">
-            <div class="footer-col" id="contact">
-              <h4>CONTACT US</h4>
-              <p>
-                  <span class="fa fa-map-marker"></span> Vellore Institute of
-                  Technology Chennai Campus, Vandalur Kelambakkam Road Chennai Tamil
-                  Nadu: 600127
-              </p>
-              <br />
-              <p><span class="fa fa-envelope"></span> biospherevitcc@gmail.com</p>
-              <br />
-          </div>
-
-            <div class="footer-col">
-              <h4>FOLLOW US</h4>
-              <div class="social">
-                <a href="https://www.instagram.com/biosphere_club_vitcc" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
-                    width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path
-                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
-                    </path>
-                  </svg></a>
-                <a href="https://www.linkedin.com/company/biosphere-club/" target="_blank"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
-                    viewBox="0 0 16 16">
-                    <path
-                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
-                    </path>
-                  </svg></a>
-                <a href="https://www.youtube.com/@biospherevitcc5017" target="_blank"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
-                    viewBox="0 0 16 16"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                      <path
-                        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
-                    </svg></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-      <div class="bottom" style="background-color:rgb(0, 153, 255)">
-        <div class="bottom-text">
+  <footer class="footer" id="gal">
+    <div class="footer-container">
+      <div class="footer-row">
+        <div class="footer-col" id="contact">
+          <h4>CONTACT US</h4>
           <p>
-            Created by <a href="../Developer_page_cdn/developer_index.html"><span class="gap">Biosphere Web Dev
-                Team</span></a><span class="gap">|</span><span class="gap">2023</span>
+            <span class="fa fa-map-marker"></span> Vellore Institute of
+            Technology Chennai Campus, Vandalur Kelambakkam Road Chennai Tamil
+            Nadu: 600127
           </p>
+          <br />
+          <p><span class="fa fa-envelope"></span> biospherevitcc@gmail.com</p>
+          <br />
+        </div>
+
+        <div class="footer-col">
+          <h4>FOLLOW US</h4>
+          <div class="social">
+            <a href="https://www.instagram.com/biosphere_club_vitcc" target="_blank"><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                </path>
+              </svg></a>
+            <a href="https://www.linkedin.com/company/biosphere-club/" target="_blank"><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
+                </path>
+              </svg></a>
+            <a href="https://www.youtube.com/@biospherevitcc5017" target="_blank"><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <path
+                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+                </svg></a>
+          </div>
         </div>
       </div>
+    </div>
+  </footer>
 
+  <div class="bottom" style="background-color:rgb(0, 153, 255)">
+    <div class="bottom-text">
+      <p>
+        Created by <a href="../Developer_page_cdn/developer_index.html"><span class="gap">Biosphere Web Dev
+            Team</span></a><span class="gap">|</span><span class="gap">2023</span>
+      </p>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
